@@ -188,27 +188,6 @@ a {
 	padding-right: 110px;
 }
 
-.form-container
-	.field-container
-	input[type='file']::-webkit-file-upload-button {
-	background-color: var(--bg-dark);
-	position: absolute;
-	right: 0;
-	top: 0;
-
-	margin: unset;
-
-	height: 100%;
-
-	border: none;
-	outline: none;
-
-	color: white;
-
-	cursor: pointer;
-
-	width: 100px;
-}
 
 .form-container .field-container input[type='file']::file-selector-button {
 	background-color: var(--bg-dark);
